@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+aside {
+    width: 300px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.contact-info a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.interests,
+.languages,
+.soft-skills {
+    margin-top: 20px;
+}
+
+.interests h2,
+.languages h2,
+.soft-skills h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.interests ul,
+.languages ul,
+.soft-skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests li,
+.languages li,
+.soft-skills li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 22px;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.profile p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #34495e;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    color: #34495e;
+}
+
+.skills li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.work-experience .job,
+.education .education-item,
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.job h3,
+.education-item h3,
+.project h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #3498db;
+}
+
+.job h4,
+.education-item h4,
+.project h4 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #34495e;
+}
+
+.job p,
+.education-item p,
+.project p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+.job ul,
+.project ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #34495e;
+}
+
+.job li,
+.project li {
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.publications ul,
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+    color: #34495e;
+}
+
+.publications li,
+.certifications li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.publications a {
+    color: #3498db;
+    text-decoration: none;
+}
